@@ -38,8 +38,8 @@ export class TopMenuLayer extends React.Component<ITomMenuLayerProps> {
                     onLocaleChange={this.onClose}
                 />
             </MobileMenuItem>
-            <MobileMenuItem title={tr.get("toolbar.alethio.label")}>
-                <ExternalLink href="https://company.aleth.io" rel="noopener noreferrer">
+            <MobileMenuItem title={tr.get("toolbar.website.label")}>
+                <ExternalLink href="https://injectiveprotocol.com" rel="noopener noreferrer">
                     <ToolbarIconButton Icon={BriefcaseIcon} />
                 </ExternalLink>
             </MobileMenuItem>
